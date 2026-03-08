@@ -3,7 +3,7 @@ import java.util.Scanner;
 import controllers.StudentController;
 import repository.StudentRepository;
 
-public class StudentSystem {
+public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
