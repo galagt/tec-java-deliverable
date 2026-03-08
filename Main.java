@@ -32,7 +32,6 @@ public class Main {
                     break;
                 //Exit
                 case 5:
-                    //just pass without error
                     System.out.println("Thanks for using the system!");
                     break;
                 default:

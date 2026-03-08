@@ -1,4 +1,5 @@
 package models;
+import constants.Constants;
 
 public abstract class Student extends Person {
     private double grade;
@@ -17,7 +18,7 @@ public abstract class Student extends Person {
     
     // "Passed" or "Failed"
     public String getStatus(){
-         return this.grade < 6 ? "Failed" : "Passed";
+         return this.grade < Constants.PASSING_GRADE ? "Failed" : "Passed";
     }
 
     // shows name and grade
